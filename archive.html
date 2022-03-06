@@ -23,7 +23,7 @@ comments: false
   {%- endunless -%}
   <article class="post-item">
     <h3 class="post-item-title">
-      <img class="post-icon" src="../assets/icons/{{ post.topic }}.png" title="{{ post.topic }}">
+      <img class="post-icon" src="../assets/icons/{{ post.icon }}.png" title="{{ post.title }}" alt="{{ post.title }}">
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h3> 
   </article>
