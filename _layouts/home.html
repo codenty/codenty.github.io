@@ -9,7 +9,7 @@ home: true
   <span class="post-item-date">
     {{ post.date | date: "%b %d, %Y" }}
   </span>
-  <img class="post-icon" src="../assets/icons/{{ post.topic }}.png" title="{{ post.topic }}" alt="{{ post.topic }}">
+  <img class="post-icon" src="../assets/icons/{{ post.icon }}.png" title="{{ post.title }}" alt="{{ post.title }}">
   <h4 class="post-item-title">
     <a href="{{ post.url }}">{{ post.title | escape }}</a>
   </h4>
