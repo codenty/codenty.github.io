@@ -1,27 +1,27 @@
 # Site settings
-title: Codenty | free knowledge blog # site title
-description: >- # site description
+title: Codenty | free knowledge blog
+description: >- 
   description???
-lang: en-US # default lang
-timezone: America/buenos_aires # set your timezone
-image: assets/img/codenty-logo.png # This image used for Open Graph more info https://ogp.me/
-repo: # site repo [optional]
-mode: dark # default theme "dark" | "light"
+lang: en-US 
+timezone: America/buenos_aires
+image: assets/img/codenty-logo.png 
+repo: 
+mode: dark 
 
 # Profile settings
 author:
-  name: Codenty # author name
-  bio: >- # tell to the world
+  name: Codenty 
+  bio: >-
     01110011 01101000 01101001 01110100 00100000 01100010 01101100 01101111 01100111
   username: codenty
-  github: codenty # github username
-  avatar: /assets/img/codenty-logo-70.png # change with your own avatar
+  github: codenty 
+  avatar: /assets/img/codenty-logo-70.png
 
 # URL settings
 url: "https://codenty.github.io"
 baseurl:
 permalink: /:title/
-google_analytics:
+google_analytics: G-7T7MT4TJNS
 fb_appid:
 
 # Collection setting
