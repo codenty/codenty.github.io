@@ -9,7 +9,10 @@ tags: [python]
 description:  Understanding lambda functions in Python
 ---
 
-![Working with lambda functions in Python](lambda-banner.png)
+<figure>
+<img src="/understanding-lambda-python/lambda-banner.png" alt="working with ambda functions in Python">
+</figure>
+
 
 ### Lambda introduction
 The lambda functions or also called _anonymous functions_, is the same as a normal function but without a defined name.
