@@ -10,7 +10,7 @@ description:  Understanding lambda functions in Python
 ---
 
 <figure>
-<img src="/understanding-lambda-python/lambda-banner.png" alt="working with ambda functions in Python">
+<img src="/understanding-lambda-python/banner.png" alt="working with lambda functions in Python">
 </figure>
 
 
