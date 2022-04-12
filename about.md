@@ -5,7 +5,7 @@ layout: page
 comments: false
 ---
 
-a free knowledge space.
+a free knowledge space,developed with the main objective of documenting everything that I am learning every day about computing.
 
 
 ## About the site
