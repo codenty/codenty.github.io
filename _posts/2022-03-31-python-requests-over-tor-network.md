@@ -1,10 +1,10 @@
 ---
 layout: post
-author: "0x4f5041"
+author: "0x4D5041"
 title: Requests over TOR network
 icon: python
 date: 2022-03-31 18:09 -03:00
-modified: 
+modified: 2022-04-14 16:43 -03:00
 tags: [python, TOR]
 description: Anonymizing HTTP requests with TOR proxies
 ---
@@ -64,4 +64,20 @@ with the TOR service active, declare a proxy dictionary
 ...    }
 >>> requests.get('https://api.ipify.org', proxies=proxies).text
 '199.249.230.176' # Proxy IP
+```
+
+### Requests Session
+
+also it's possible to implement a [Session Object](https://docs.python-requests.org/en/master/user/advanced/) _it allows to keep on certain parameters across requests, like cookies_
+
+```python
+
+>>> import requests
+>>> session = requests.Session()
+>>> session.proxies = {
+...         'http': 'socks5://127.0.0.1:9050',
+...         'https': 'socks5://127.0.0.1:9050'
+...    }
+>>> session.get('https://api.ipify.org').text
+'51.15.250.93' # proxy IP
 ```
